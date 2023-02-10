@@ -41,7 +41,7 @@ while True:
         
         max_price = max(data['prices']) # Определяю максимальную цену из имеющегося списка
         
-        if max_price - current_price >= max_price / 100 * 0.1 : # Проверяю упала ли текущая цена на 1 процент, или больше от максимальной
+        if max_price - current_price >= max_price / 100 : # Проверяю упала ли текущая цена на 1 процент, или больше от максимальной
             print("""                                           
             ====================
             JIM, IT'S FALLING!!!
